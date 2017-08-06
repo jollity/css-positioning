@@ -44,6 +44,9 @@ If we set **relative positioning** on div-1, any elements within div-1 will be p
      width:200px;
     }
 
+## sticky
+
+Refer to **[CSS-Tricks](https://css-tricks.com/almanac/properties/p/position/)**
 
 ## For a more deeper understanding
 
