@@ -28,3 +28,18 @@ When you specify **position:absolute**, the element is **removed from the docume
 Notice that this time, since div-1a was **removed from the document**, the other elements on the page were **positioned differently: div-1b, div-1c, and div-after moved up since div-1a was no longer there**.
 
 Also notice that div-1a was positioned in the top right corner of the page. It's nice to be able to position things related to the page, but it's of limited value.
+
+
+## position:relative + position:absolute
+
+If we set **relative positioning** on div-1, any elements within div-1 will be positioned relative to div-1. Then if we set **absolute positioning** on div-1a, we can move it to the top right of div-1:
+
+    #div-1 {
+     position:relative;
+    }
+    #div-1a {
+     position:absolute;
+     top:0;
+     right:0;
+     width:200px;
+    }
