@@ -43,3 +43,10 @@ If we set **relative positioning** on div-1, any elements within div-1 will be p
      right:0;
      width:200px;
     }
+
+
+## For a more deeper understanding
+
+Refer to the following links:  
+1. [BarelyFitz Designs](http://www.barelyfitz.com/screencast/html-training/css/positioning/)
+2. [CSS-Tricks](https://css-tricks.com/almanac/properties/p/position/)
